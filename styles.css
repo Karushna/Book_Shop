@@ -1,0 +1,299 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 30px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #0C1559;
+  color: #fff;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #0C1559;
+  color: #fff;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #0C1559;
+  color: #fff;
+  padding: 10px;
+}
+
+p {
+  line-height: 1.5;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+h5 {
+  color: #000;
+}
+
+#special-offers-section {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.special-offers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.special-offer {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.special-offer img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.special-offer h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.special-offer p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.special-offer .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0C1559;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.special-offer .btn:hover {
+  background-color: #1835a0;
+}
+
+.book-discount {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #888;
+}
+
+nav {
+  background-color: #0C1559;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 160px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav a.active {
+  background-color: #fff;
+  color: #0C1559;
+}
+
+header {
+  background-color: #0C1559;
+  color: #fff;
+  padding: 10px;
+}
+
+#welcome-section {
+  background-color: #242B64;
+  padding: 20px;
+}
+
+.welcome-container {
+  text-align: center;
+}
+
+.welcome-heading {
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.welcome-text {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.promotion {
+  display: flex;
+  align-items: center;
+}
+
+.promotion-video {
+  flex: 1;
+}
+
+.promotion-video video {
+  width: 100%;
+  max-width: 750px;
+  border-radius: 10px;
+}
+
+.promotion-description {
+  flex: 1;
+  padding: 20px;
+}
+
+.promotion-description h3 {
+  color: #ff9800;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.promotion-description p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.book-list,
+.event-list,
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-list li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.book-list li img {
+  max-width: 200px;
+  transition: transform 0.5s;
+}
+
+.book-list li:hover img {
+  transform: translateX(20px);
+}
+
+.book-list li .book-details {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  transition: opacity 0.5s;
+}
+
+.book-list li:hover .book-details {
+  display: block;
+}
+
+.book-list li .book-details h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.book-list li .book-details p {
+  margin: 5px 0;
+}
+
+.events-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.event:nth-child(1),
+.event:nth-child(2) {
+  order: -1;
+}
+
+.event {
+  width: 48%;
+}
+
+.event img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.contact-list h3 {
+  margin-top: 0;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+form button {
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+footer {
+  background-color: #0C1559;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
